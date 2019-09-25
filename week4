@@ -1,0 +1,37 @@
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T1','Jack','123');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T2','Jones','356');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T3','Michael','908');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T4','Harry','675');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T5','Micky','234');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T6','Minnie','098');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T7','John','789');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T8','Peter','906');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T9','Mary','453');
+Insert into Truck(TruckNumber, DriverName, OrderName) VALUES ('T10','Ali','210');
+
+
+
+
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('1','Carrot','12','20Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('2','Peas','35','30Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('3','Raddish','08','40Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('4','Onions','65','50Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('5','Tomato','24','60Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('6','Potato','98','70Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('7','Brinjal','89','80Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('8','Cauliflower','06','90Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('9','Bittergourd','43','10Kg');
+Insert into Warehouse(ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('10','Cucumber','20','55Kg');
+
+
+
+Insert into orders(order_id, item_number, truck_number) values ('A1','B1','T501');
+Insert into orders(order_id, item_number, truck_number) values ('A2','B2','T502');
+Insert into orders(order_id, item_number, truck_number) values ('A3','B3','T503');
+Insert into orders(order_id, item_number, truck_number) values ('A4','B4','T506');
+Insert into orders(order_id, item_number, truck_number) values ('A5','B5','T509');
+Insert into orders(order_id, item_number, truck_number) values ('A6','B6','T508');
+Insert into orders(order_id, item_number, truck_number) values ('A7','B7','T507');
+Insert into orders(order_id, item_number, truck_number) values ('A8','B8','T504');
+Insert into orders(order_id, item_number, truck_number) values ('A9','B9','T505');
+Insert into orders(order_id, item_number, truck_number) values ('A10','B10','T586');
